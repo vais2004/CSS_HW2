@@ -1,0 +1,108 @@
+/* for question 1 */
+.list{
+    font-weight: bold;
+}
+
+.itemTwo{
+    position: relative;
+    left: 30px;
+}
+
+.itemThree{
+    position: relative;
+    left: 60px;
+}
+
+/* for question 2 */
+.container{
+    display: flex;
+    margin-bottom: 75px;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: lightgray;
+    margin-left: 5px; 
+    position: relative; 
+  }
+
+.box2{
+   top:30px;
+}
+.box3{
+  top:60px;  
+}
+
+/* for question 3 */
+
+.absoluteBox{
+    width: 300px;
+    height: 300px;
+    background-color: lightgray;
+    position: relative;
+}
+.pinkBox{
+    width: 150px;
+    height: 150px;
+    background-color: lightpink;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+/* for question 4 */
+.absoluteBoxTwo{
+    height: 300px;
+    width: 255px;
+    border: solid 2px;
+    border-color: black;
+    position: relative;
+}
+.menu{
+background-color: pink;
+padding: 8px;
+position: absolute;
+}
+.content{
+    height: 280px;
+    width: 180px;
+   padding: 10px;
+    background-color: lightgray;
+    position: absolute;
+    right: 0px;
+}
+
+/* for question 3 */
+.absoluteBoxThree{
+    height: 100px;
+    width: 306px;
+    border: solid 2px;
+    border-color: black;
+    position: relative;
+}
+.menu1{
+    height: 80px;
+    width: 80px;
+    padding:10px;
+    position: absolute;
+    background-color: lightgray;
+
+}
+.menu2{
+    height: 80px;
+    width: 80px;
+    padding:10px;
+    position: absolute;
+    background-color: lightgray;
+    right: 100px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.menu3{
+    height: 80px;
+    width: 80px;
+    padding:10px;
+    position: absolute;
+    background-color: lightgray;
+    right: 0px;
+}
